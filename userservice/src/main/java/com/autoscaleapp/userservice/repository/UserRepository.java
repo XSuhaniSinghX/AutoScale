@@ -1,6 +1,6 @@
 package com.autoscaleapp.userservice.repository;
 // step 2 right here
-//this one will handle crud operations 
+//this one will handle crud operations .
 
 import com.autoscaleapp.userservice.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;//main stuff, will handle all crud ops.
