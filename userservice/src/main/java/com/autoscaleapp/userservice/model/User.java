@@ -16,7 +16,7 @@ import lombok.*;
 @Table(name = "users")  //the table used ti store users in db is called users (wow i am a genius)
 public class User {
     
-    @Id // id is going to be my primary key 
+    @Id // id is going to be my primary key .
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id; //should've used int caz this thing will only have probably 3 users
     
