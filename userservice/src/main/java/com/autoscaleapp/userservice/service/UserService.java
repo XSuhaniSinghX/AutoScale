@@ -4,7 +4,7 @@ import com.autoscaleapp.userservice.model.User;
 import com.autoscaleapp.userservice.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
-//third step y'all
+//third step y'all.
 // this one's the real business logic
 
 import java.util.Optional;
