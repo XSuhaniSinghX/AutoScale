@@ -1,0 +1,6 @@
+this document is just for my reference 
+after applicatio.properties, just ran container in  the terminal(docker start mysql-container)
+then ran springboot (./mvnw spring-boot:run)
+will be testing the application in postman maybe.
+
+

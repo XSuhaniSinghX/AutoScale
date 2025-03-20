@@ -19,11 +19,13 @@ public class UserService {
         this.userRepository = userRepository;
     } //for some reason they call it constructor injection 
 
-    public User registerUser(User user) {
+    public User registerUser(User user) { // Registering a new user
+
         return userRepository.save(user);
     }//saving user here , well not exactly here, but in db
 
-    public Optional<User> findByUsername(String username) {//to handle nullpointer exception. too many exception these days.
+    public Optional<User> findByUsername(String username) { // To handle potential null pointer exceptions
+
         return userRepository.findByUsername(username);
     }
 }
